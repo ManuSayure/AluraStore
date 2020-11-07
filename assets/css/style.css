@@ -1,27 +1,36 @@
 .app {
-
-   font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 233, 229);
+    font-family: Arial, Helvetica, sans-serif;
     display: grid;  
     grid-template-areas: 
         "cabecalho"
         "conteudo"
         "rodape";
     grid-template-columns: 100%;
-    grid-template-rows: 50px 100vh auto;    /* 3 linhas, 100vh = ocupa toda área do browser*/    
+    grid-template-rows: 50px auto auto;   /* 3 linhas, 100vh = ocupa toda área do browser*/    
     
 }
 
-.cabecalho {
-   
+.cabecalho {   
     grid-area: cabecalho;
+    align-items: center;
+    display: flex;
+    margin: 0 2rem; 
+    padding: 0 2rem;
+    background-color: rgb(240, 233, 229);
 }
 
-.conteudo {
-  
+.conteudo {  
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
-.rodape {
+.rodape {  
+    grid-area: rodape; 
     
-    grid-area: rodape;
+    background: dimgray;
+    color: #333333;
+    font-size: .8rem;    
+    padding: 1rem;
+    text-align: center;
 }
