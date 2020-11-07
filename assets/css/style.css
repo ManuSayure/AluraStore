@@ -6,8 +6,8 @@
         "cabecalho"
         "conteudo"
         "rodape";
-    grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;    /* 3 linhas, 100vh = ocupa toda área do browser*/
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 100vh auto;    /* 3 linhas, 100vh = ocupa toda área do browser*/    
     
 }
 

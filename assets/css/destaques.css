@@ -1,9 +1,11 @@
 .destaques {
-    display: grid;
+    display: grid;    
     gap: .2rem; 
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(100vh - 50px);  
+    width: calc(100%- 5rem);
+    background-color: rgb(240, 233, 229);
     
 }
 .destaques__principal {
